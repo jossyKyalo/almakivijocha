@@ -19,6 +19,7 @@ public class Main {
 
             switch (choice) {
 
+<<<<<<< HEAD
             case 1:
                 System.out.print("Enter the first number: ");
                 int firstNumber = scanner.nextInt();
@@ -51,41 +52,72 @@ public class Main {
                 int num5 = scanner.nextInt();
                 System.out.print("Enter the second number: ");
                 int num6 = scanner.nextInt();
+=======
+                case 1:
+                    System.out.print("Enter the first number: ");
+                    int firstNumber = scanner.nextInt();
+                    System.out.print("Enter the second number: ");
+                    int secondNumber = scanner.nextInt();
+                    //add method for addition and the output statement for result
+                    int sum = Addition.add(firstNumber,secondNumber);
+                    System.out.println("Result of addition: " + sum);
+                    break;
+<<<<<<< Updated upstream
+              case 2:
+=======
+             case 2:
+>>>>>>> Stashed changes
+                    System.out.print("Enter the first number: ");
+                    int num3 = scanner.nextInt();
+                    System.out.print("Enter the second number: ");
+                    int num4 = scanner.nextInt();
+                    //add method for substraction and the output statement for result
+                    
+                    break;
+                case 3:
+                    System.out.print("Enter the first number: ");
+                    int num5 = scanner.nextInt();
+                    System.out.print("Enter the second number: ");
+                    int num6 = scanner.nextInt();
+                    //add method for multiplication and the output statement for result
+                    break;
+                case 4:
+                    System.out.print("Enter the first number: ");
+                    double num7 = scanner.nextDouble();
+                    System.out.print("Enter the second number: ");
+                    double num8 = scanner.nextDouble();
+                    //add method for division and the output statement for result
+                    break;
+                case 5:
+                    System.out.print("Enter the length: ");
+                    int length = scanner.nextInt();
+                    System.out.print("Enter the width: ");
+                    int width = scanner.nextInt();
+                    //add method for rectangle's perimeter and the output statement for result
+                    int recperimeter = Rectangleperimeter.perimeter(length, width);
+                    System.out.println("The perimeter is: " + recperimeter);
+                    break;
+                case 6:
+                    System.out.print("Enter the base: ");
+                    int base = scanner.nextInt();
+                    System.out.print("Enter the height: ");
+                    int height = scanner.nextInt();
+                    //add method for computing the area of a right-angled triangle and the output statement for result
+                    break;
+                case 7:
+                    System.out.print("Enter the radius: ");
+>>>>>>> 09b425530df7af745b9112d1938062abe43810d1
             
-                break;
-            case 4:
-                System.out.print("Enter the first number: ");
-                double num7 = scanner.nextDouble();
-                System.out.print("Enter the second number: ");
-                double num8 = scanner.nextDouble();
-                //add method for division and the output statement for result
-                break;
-            case 5:
-                System.out.print("Enter the length: ");
-                int length = scanner.nextInt();
-                System.out.print("Enter the width: ");
-                int width = scanner.nextInt();
-                //add method for rectangle's perimeter and the output statement for result
-                break;
-            case 6:
-                System.out.print("Enter the base: ");
-                int base = scanner.nextInt();
-                System.out.print("Enter the height: ");
-                int height = scanner.nextInt();
-                //add method for computing the area of a right-angled triangle and the output statement for result
-                break;
-            case 7:
-                System.out.print("Enter the radius: ");
-                double radius = scanner.nextDouble();
-               //add method for calculating area of the circle and the output statement for result
-                break;
-            case 8:
-                System.out.print("Enter the radius: ");
-                double circleRadius = scanner.nextDouble();
-                //add method for finding perimeter of the circle and the output statement for result
-                break;
-            default:
-                System.out.println("Invalid choice! You can try again now.");
+                   //add method for calculating area of the circle and the output statement for result
+                    break;
+                case 8:
+                    System.out.print("Enter the radius: ");
+                    double circleRadius = scanner.nextDouble();
+                    //add method for finding perimeter of the circle and the output statement for result
+                    break;
+                default:
+                    System.out.println("Invalid choice! You can try again now.");
+            }
         }
 
       
