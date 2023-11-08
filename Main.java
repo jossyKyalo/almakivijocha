@@ -53,7 +53,7 @@ public class Main {
                     double num8 = scanner.nextDouble();
                     //add method for division and the output statement for result
                     double Divi = division.div(num7, num8);
-                    System.out.println("The Area is: " + Divi);
+                    System.out.println("The division is: " + Divi);
                     break;
                 case 5:
                     System.out.print("Enter the length: ");
@@ -85,7 +85,7 @@ public class Main {
                     double circleRadius = scanner.nextDouble();
                     //add method for finding perimeter of the circle and the output statement for result
                     double circumfer = circleperimeter.circumference( circleRadius);
-                    System.out.println("The Area is: " + circumfer);
+                    System.out.println("The circumference is: " + circumfer);
                     break;
                 default:
                     System.out.println("Invalid choice! You can try again now.");
