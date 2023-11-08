@@ -28,7 +28,7 @@ public class Main {
                     int sum = Addition.add(firstNumber,secondNumber);
                     System.out.println("Result of addition: " + sum);
                     break;
-             /*case 2:
+              case 2:
                     System.out.print("Enter the first number: ");
                     int num3 = scanner.nextInt();
                     System.out.print("Enter the second number: ");
@@ -49,7 +49,7 @@ public class Main {
                     System.out.print("Enter the second number: ");
                     double num8 = scanner.nextDouble();
                     //add method for division and the output statement for result
-                    break;*/
+                    break;
                 case 5:
                     System.out.print("Enter the length: ");
                     int length = scanner.nextInt();
@@ -59,7 +59,7 @@ public class Main {
                     int recperimeter = Rectangleperimeter.perimeter(length, width);
                     System.out.println("The perimeter is: " + recperimeter);
                     break;
-                /*case 6:
+                case 6:
                     System.out.print("Enter the base: ");
                     int base = scanner.nextInt();
                     System.out.print("Enter the height: ");
@@ -68,14 +68,14 @@ public class Main {
                     break;
                 case 7:
                     System.out.print("Enter the radius: ");
-                    double radius = scanner.nextDouble();
+            
                    //add method for calculating area of the circle and the output statement for result
                     break;
                 case 8:
                     System.out.print("Enter the radius: ");
                     double circleRadius = scanner.nextDouble();
                     //add method for finding perimeter of the circle and the output statement for result
-                    break;*/
+                    break;
                 default:
                     System.out.println("Invalid choice! You can try again now.");
             }
