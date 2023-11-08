@@ -44,7 +44,7 @@ public class Main {
                     int num6 = scanner.nextInt();
                     //add method for multiplication and the output statement for result
                     int product = Multiplication.multiply(num5, num6);
-                    System.out.println("Result of multiplication: " + product);
+                    System.out.println("The product of the two numbers is: " + product);
                     break;
                 case 4:
                     System.out.print("Enter the first number: ");
