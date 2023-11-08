@@ -33,6 +33,17 @@ public class Main {
                 int num3 = scanner.nextInt();
                 System.out.print("Enter the second number: ");
                 int num4 = scanner.nextInt();
+                System.out.print("Enter the first number: ");
+                int float1 = scanner.nextInt();
+                System.out.print("Enter the second number: ");
+                int float2 = scanner.nextInt();
+                SubtractionCalculator calculator = new SubtractionCalculator();
+
+                int result1 = calculator.subtract(num3, num4);
+                double result2 = calculator.subtract(float1, float2);
+
+                System.out.println("Subtraction of two integers: " + result1);
+                System.out.println("Subtraction of two doubles: " + result2);
                 //add method for substraction and the output statement for result
                 
                 break;
@@ -41,7 +52,7 @@ public class Main {
                 int num5 = scanner.nextInt();
                 System.out.print("Enter the second number: ");
                 int num6 = scanner.nextInt();
-                //add method for multiplication and the output statement for result
+            
                 break;
             case 4:
                 System.out.print("Enter the first number: ");
