@@ -1,4 +1,4 @@
-public class SubtractionCalculator {
+public class SubtractionCalculator extends Main {
     public int subtract(int num1, int num2) {
         return num1 - num2;
     }
