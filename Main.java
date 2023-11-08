@@ -34,9 +34,9 @@ public class Main {
                 System.out.print("Enter the second number: ");
                 int num4 = scanner.nextInt();
                 System.out.print("Enter the first number: ");
-                int float1 = scanner.nextDouble();
+                double float1 = scanner.nextDouble();
                 System.out.print("Enter the second number: ");
-                int float2 = scanner.nextDouble();
+                double float2 = scanner.nextDouble();
                 SubtractionCalculator calculator = new SubtractionCalculator();
 
                 int result1 = calculator.subtract(num3, num4);
@@ -47,10 +47,13 @@ public class Main {
                 
                 break;
             case 3:
+            Multiplication input=new Multiplication();
                 System.out.print("Enter the first number: ");
                 int num5 = scanner.nextInt();
                 System.out.print("Enter the second number: ");
                 int num6 = scanner.nextInt();
+                int product=input.multiply(num5,num6);
+                 System.out.println("The product of the two numbers is:"+product);
             
                 break;
             case 4:
