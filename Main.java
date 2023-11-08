@@ -28,7 +28,11 @@ public class Main {
                     int sum = Addition.add(firstNumber,secondNumber);
                     System.out.println("Result of addition: " + sum);
                     break;
+<<<<<<< Updated upstream
               case 2:
+=======
+             case 2:
+>>>>>>> Stashed changes
                     System.out.print("Enter the first number: ");
                     int num3 = scanner.nextInt();
                     System.out.print("Enter the second number: ");
