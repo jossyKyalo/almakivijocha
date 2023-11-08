@@ -3,21 +3,21 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         System.out.println("Hello World!");//The Main Java Hello World Program
-        Scanner scanner=new Scanner(System.in);
-        //For the classes input queries
-        System.out.println("Select your arithmetic operation:");
-        System.out.println("1.Addition");
-        System.out.println("2.Subtraction");
-        System.out.println("3.Multiplication"); 
-        System.out.println("4.Division");
-        System.out.println("5.Rectangle perimeter");
-        System.out.println("6.Triangle area");
-        System.out.println("7.Circle area");
-        System.out.println("8.Circle perimeter");
+        try (Scanner scanner = new Scanner(System.in)) {
+            //For the classes input queries
+            System.out.println("Select your arithmetic operation:");
+            System.out.println("1.Addition");
+            System.out.println("2.Subtraction");
+            System.out.println("3.Multiplication"); 
+            System.out.println("4.Division");
+            System.out.println("5.Rectangle perimeter");
+            System.out.println("6.Triangle area");
+            System.out.println("7.Circle area");
+            System.out.println("8.Circle perimeter");
 
-        int choice = scanner.nextInt();
+            int choice = scanner.nextInt();
 
-        switch (choice) {
+            switch (choice) {
 
             case 1:
                 System.out.print("Enter the first number: ");
@@ -34,9 +34,9 @@ public class Main {
                 System.out.print("Enter the second number: ");
                 int num4 = scanner.nextInt();
                 System.out.print("Enter the first number: ");
-                int float1 = scanner.nextDouble();
+                double float1 = scanner.nextDouble();
                 System.out.print("Enter the second number: ");
-                int float2 = scanner.nextDouble();
+                double float2 = scanner.nextDouble();
                 SubtractionCalculator calculator = new SubtractionCalculator();
 
                 int result1 = calculator.subtract(num3, num4);
@@ -91,5 +91,5 @@ public class Main {
       
     }
 }
-
+}
     

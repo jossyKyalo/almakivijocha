@@ -1,7 +1,7 @@
-public class Circlearea {
+public class Circlearea extends Main {
      
-    public int area(int radius){
-          return 22/7*radius*radius;
+    public double area(double radius){
+          return (3.142)*radius*radius;
     
 }
 }
