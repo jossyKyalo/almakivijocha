@@ -5,7 +5,7 @@ public class Main {
         System.out.println("Hello World!");//The Main Java Hello World Program
         try (Scanner scanner = new Scanner(System.in)) {
             //For the classes input queries
-            System.out.println("Select your arithmetic operation:");
+            
             System.out.println("1.Addition");
             System.out.println("2.Subtraction");
             System.out.println("3.Multiplication"); 
@@ -14,7 +14,9 @@ public class Main {
             System.out.println("6.Triangle area");
             System.out.println("7.Circle area");
             System.out.println("8.Circle perimeter");
-
+            System.out.println("");
+            System.out.println("");
+            System.out.println("Select your arithmetic operation:");
             int choice = scanner.nextInt();
 
             switch (choice) {
@@ -30,10 +32,9 @@ public class Main {
                     break;
              case 2:
                     System.out.print("Enter the first number: ");
-                    double num3 = scanner.nextInt();
+                    double num3 = scanner.nextDouble();
                     System.out.print("Enter the second number: ");
-                    double num4 = scanner.nextInt();
-                    //add method for substraction and the output statement for result
+                    double num4 = scanner.nextDouble();
                     double difference = SubtractionCalculator.subtract(num3,num4);
                     System.out.println("Result of subtraction: " + difference);
                     break;
